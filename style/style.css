@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2? family = Rubik & display = swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #232c50;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+nav  {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 180px 0 180px;
+}
+.log {
+    position: relative;
+    top: 5px;
+}
+ul.list {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li a {
+    color: #232c50;
+    margin: 20px
+}
+.link {
+    text-decoration: none;
+}
+.boton {
+    background: #f3603b;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+}
+.main1 {
+    position: relative;
+    top: 210px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec1 {
+    width: 400px;
+}
+.sec2 {
+    position: relative;
+    top: -100px;
+    width: 410px;
+}
+.im1 {
+    width: 200px;
+    height: 200px;
+}
+.im2 {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+}
+.t1 {
+    width: 500px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.t2 {
+    font-size: 20px;
+}
+.main2 {
+    position: relative;
+    top: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+.par1 {
+    width: 400px;
+}
+.t3 {
+    font-size: 30px;
+}
+.text1 {
+    width: 300px;
+}
+.t4 {
+    padding: 13px 35px 13px 35px;
+    background: #f3603b;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+}
+.titulo1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.text2 {
+    position: relative;
+    left: 90px;
+    width: 450px;
+}
+.textsec {
+    position: relative;
+    font-size: 30px;
+    width: 280px;
+    top: 360px;
+    left: 570px;
+}
+main.menu2 article {
+    box-sizing: content-box;
+    width: 1280px;
+    position: relative;
+    top: 570px;
+    left: 40px;
+    display: flex;
+    background: #e5e5e5;
+    font-size: 18px;
+    font-weight: 600;
+}
+.perfil1 {
+    position: absolute;
+    top: -40px;
+    left: 202px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.perfil2 {
+    position: absolute;
+    top: -40px;
+    left: 602px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.perfil3 {
+    position: absolute;
+    top: -40px;
+    left: 1002px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.boton2 {
+    position: relative;
+    top: 680px;
+    left: 620px;
+    background: #f3603b;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+}
+footer section.pie1 {
+    position: relative;
+    top: 850px;
+    background: #f3603b;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 30px 0 0 30px;
+}
+button.boton3 {
+    position: relative;
+    top: 30px;
+    height: 50px;
+    padding: 0 25px 0 25px;
+    background: white;
+    color: #f3603b;
+    border-radius: 20px;
+}
+.logo2 {
+    position: relative;
+    top: 7px;
+    left: 100px;
+    height: 40px;
+    width: 40px;
+}
+footer section.pie2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px 40px 100px 40px;
+    justify-content: space-between;
+    top: 850px;
+    background: #1e1e26;
+    color: white;
+}
+span.logo3 {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+}
+button.boton4 {
+    height: 50px;
+    padding: 10px 25px 10px 25px;
+    background: #f3603b;
+    color: white;
+    border-radius: 20px;
+}
+#redes {
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+}
+#texto {
+    border-radius: 20px;
+}
+p#desc {
+    position: relative;
+    left: 40px;
+    width: 400px;
+    color: #b9b9c1;
+    font-size: 11px;
+    padding-bottom: 30px;
+}
+#nombre {
+    position: relative;
+    left: 200px;
+}
+#vector1 {
+    position: absolute;
+    top: 0px; 
+    right: 0px;
+    z-index: -1;
+}
+#vector2 {
+    position: absolute;
+    z-index: -1;
+    top: 900px;
+    left: 0px;
+}
+#vector3 {
+    position: absolute;
+    z-index: 1;
+    top: 900px;
+    left: 0px;
+    background: #f3603b;
+}
+@media (max-width: 800px){
+    .main1 {
+        width: 780px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav {
+        margin: 20px 15px 0 15px;}
+    .log {
+        position: relative;
+        top: 5px;
+    }
+    .boton {
+        background: #f3603b;
+        color: white;
+        padding: 5px 8px 5px 8px;
+        border-radius: 20px;
+    }
+    .sec1 {
+        position: relative;
+        top: -100px;
+        width: 400px;
+    }
+    .sec2 {
+        position: relative;
+        top: 50px;
+    }
+    .main2 {
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .t3 {
+        margin-left: 25px;
+        width: 480px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .text1 {
+        font-size: 25px;
+        width: 450px;
+        margin: 5px 0 0 5px;
+    }
+    .titulo1 {
+        position: relative;
+        left: -90px;
+        top: 55px;
+    }
+    .text2 {
+        position: relative;
+        top: 35px;
+        left: 3px;
+        width: 450px;
+    }
+    .t4 {
+        position: relative;
+        top: 23px;
+        padding: 10px 32px 10px 32px;
+        background: #f3603b;
+        color: white;
+        border-radius: 20px;
+        border-color: white;
+    }
+    .textsec {
+        position: relative;
+        font-size: 30px;
+        width: 280px;
+        top: 380px;
+        left: 250px;
+    }
+    main.menu2 article {
+        position: relative;
+        padding-bottom: 80px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 720px;
+        top: 570px;
+        background: #e5e5e5;
+        left: 30px;
+        font-size: 18px;
+        color: black;
+        font-weight: 600;
+    }
+    .manage1 {
+        background: #e5e5e5;
+        margin: 0;
+    }
+    #nombre {
+        background: #e5e5e5;
+        position: relative;
+        left: 150px;
+        top: 72px;
+    }
+    #desc {
+        position: relative;
+        background: #e5e5e5;
+        top: 57px;
+        left: 80px;
+        width: 720px;
+        color: black;
+        font-size: 30px;
+    }
+    .perfil1 {
+        position: absolute;
+        top: 10px;
+        left: 310px;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+    .perfil2 {
+        position: absolute;
+        top: 172px;
+        left: 310px;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+    .perfil3 {
+        position: absolute;
+        top: 320px;
+        left: 310px;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+    .boton2 {
+        position: relative;
+        left: 310px;
+    }
+    .logo2 {
+        position: relative;
+        left: 18px;
+    }
+    p#redes {
+        position: relative;
+        left: 250px;
+        top: 50px;
+        display: flex;
+        justify-content: center;
+
+    }
+}
